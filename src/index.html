@@ -6,35 +6,50 @@
     <title>Hotel BT | Welcome</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body>
     <header>
       <nav id="nav-bar">
-        <h1 class="logo"><a href="index.html">HBT</a></h1>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="container">
+          <h1 class="logo"><a href="index.html">HBT</a></h1>
+          <ul>
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </nav>
+
+      <div id="showcase">
+        <div class="container">
+          <div class="showcase-content">
+            <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              voluptas quos similique aspernatur, autem perferendis.
+            </p>
+            <a class="btn" href="./about.html">About Our Hotel</a>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
-      <div class="hero-section">
-        <h1>Enjoy Your Stay</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-          aperiam!
-        </p>
-        <button>About Our Hotel</button>
-      </div>
-      <div class="history-section">
-        <div class="hitory-image"></div>
+      <div id="history-section" class="bg-dark">
+        <div class="history-image">
+          <img class="hotel-history" src="./img/pexels-josh-hild-2422253.jpg" alt="">
+        </div>
         <div class="about-history">
-          <h2>The History of Our Hotel</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus dolor, ipsam, deleniti adipisci excepturi dicta
-            debitis animi odit saepe eius quo numquam sit explicabo maxime.
-          </p>
+          <div class="history-content">
+            <h2>The History of Our Hotel</h2>
+            <p class="lead">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
+              minus. Tenetur quis ad obcaecati earum alias porro quaerat
+              commodi, recusandae excepturi, consequatur aspernatur magni
+              dolores debitis ipsam veniam fugiat. Excepturi dolore maxime
+              blanditiis esse aspernatur corporis? Doloremque veniam velit sunt!
+            </p>
+            <a href="./about.html " class="btn btn-light">Read More</a>
+          </div>
         </div>
       </div>
     </main>
