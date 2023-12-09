@@ -134,12 +134,13 @@ opacity: 0.85;
     width: 50%;
     float: left;
     max-height:400px ;
-    overflow: hidden;
+    
     
     
 }
 .hotel-history{
     width: 100%;
+    height: 400px;
     
     object-fit: cover;
     
