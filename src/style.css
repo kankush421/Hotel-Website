@@ -8,6 +8,7 @@ html,
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
+ 
 }
 
 a {
@@ -84,6 +85,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 /** Padding-Info **/
@@ -164,17 +166,17 @@ p {
 
 #history-section {
   width: 100%;
-  height: 400px;
+  height: 450px;
 }
 
 .history-image {
   width: 50%;
   float: left;
-  max-height: 400px;
+  max-height: 450px;
 }
 .hotel-history {
   width: 100%;
-  height: 400px;
+  height: 450px;
 
   object-fit: cover;
 }
@@ -189,6 +191,7 @@ p {
   width: 100%;
   text-align: center;
   padding: 50px 30px;
+  
 }
 
 .history-content p {
@@ -232,7 +235,7 @@ p {
 /** Testimonials **/
 
 #testimonials{
-  height: 600px;
+  height: 100%;
   background-image: url("./img/pexels-pixabay-259915.jpg");
   background-size: cover;
   padding-top: 100px;

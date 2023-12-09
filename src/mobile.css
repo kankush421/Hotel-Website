@@ -1,0 +1,72 @@
+/** NavBar **/
+
+.logo{
+    float: none;
+    text-align: center;
+}
+
+#nav-bar ul , #nav-bar ul li{
+    float: none;
+}
+
+#nav-bar ul li a{
+    padding: 5px;
+    border-bottom: #fff solid 1px;
+}
+
+/** ShowCase **/
+#showcase{
+    height: 100%;
+}
+#showcase .showcase-content{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+/** History Section **/
+
+#history-section{
+    height: 550px;
+}
+
+.history-image{
+    display: none;
+}
+
+.about-history{
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+
+/** Features **/
+
+.box{
+    float: none;
+    width: 100%;
+}
+
+/** About-Info **/
+
+#about-info .info-right{
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+#about-info .info-left{
+    float: none;
+    width: 100%;
+    
+}
+
+#about-info .info-left .l-heading{
+    text-align: center;
+}
+
+
+
+
+
+
